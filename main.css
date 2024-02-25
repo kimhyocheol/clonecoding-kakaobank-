@@ -1,0 +1,901 @@
+
+/* HEADER */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+header > .inner {
+    height: 81px;
+    
+}
+header .logo {
+    height: 80px;
+    width: 116px;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 430px;
+    margin: auto;
+}
+header .main-menu {
+    position: absolute;
+    bottom: 10px;
+    right: 410px;
+    z-index: 1;
+    display: flex;
+    top: 25px;
+    
+}
+header .main-menu .item .item__name {
+    padding: 10px 20px 34px 20px;
+    font-size: 15px;
+}
+header .main-menu .item:nth-child(1) .item__name {
+    height: 10px;
+}
+header .main-menu .item:nth-child(1) .item__name:hover {
+    border-bottom: 2px solid #000;
+}
+header .main-menu .item:nth-child(2) .item__name {
+    height: 10px;
+}
+header .main-menu .item:nth-child(2) .item__name:hover {
+    border-bottom: 2px solid #000;
+}
+header .main-menu .item:nth-child(3) .item__name {
+    height: 10px;
+}
+header .main-menu .item:nth-child(3) .item__name:hover {
+    border-bottom: 2px solid #000;
+}
+header .main-menu .item:nth-child(4) .item__name {
+    height: 10px;
+}
+header .main-menu .item:nth-child(4) .item__name:hover {
+    border-bottom: 2px solid #000;
+}
+header .main-menu .item:nth-child(5) .item__name {
+    height: 26px;
+    margin-top: -15px;
+}
+
+header .main-menu .item .item__name a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Yoon 윤고딕', sans-serif;
+   
+}
+header .main-menu .item .item__name a.item-btn {
+    background-color: #fede22;
+    line-height: 44px;
+    border-radius: 22px;
+    padding: 0 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+
+}
+header .main-menu .item .item__name a:hover {
+    text-decoration: underline;
+}
+header .main-menu .item .item__contents {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 81px;
+    display: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .main-menu .item:hover .item__contents {
+    display: block;
+}
+header .main-menu .item .item__contents .contents__menu {
+    background-color: #fff;
+}
+header .main-menu .item .item__contents .contents__menu > ul {
+    padding: 20px 550px;
+    display: flex;
+
+}
+header .main-menu .item .item__contents .contents__menu > ul > li {
+    width: 300px;
+
+}
+header .main-menu .item .item__contents .contents__menu > ul > li h4  {
+    padding: 50px 0 5px 0;
+}
+header .main-menu .item .item__contents .contents__menu > ul > li h4 a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+header .main-menu .item .item__contents .contents__menu > ul > li h4 a:hover {
+    text-decoration: underline;
+}
+header .main-menu .item .item__contents .contents__menu > ul > li ul li  {
+    padding: 20px 0;
+}
+header .main-menu .item .item__contents .contents__menu > ul > li ul li a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+header .main-menu .item .item__contents .contents__menu > ul > li ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 이미 모두의 은행 지금은 카카오뱅크 */
+.intro-main {
+    position: relative;
+    width: 100%;
+    height: 884px;
+    background-color: #fff;
+}
+.intro-main .main-content {
+    position: relative;
+    max-width: 1200px;
+    height: 884px;
+    background-image: url(./images/main-bg3.png);
+    background-size: contain;
+    background-repeat: repeat;
+    z-index: 1;
+    margin: auto;
+    
+}
+.intro-main .main-content .title-main {
+    position: absolute;
+    top: 135px;
+    left: 90px;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 1.4;
+    color: black;
+}
+.intro-main .main-content .title-sub {
+    position: absolute;
+    top: 290px;
+    left: 92px;
+    font-size: 16px;
+    line-height: 1.95;
+    color: black;
+    opacity: .7;
+}
+.intro-main .main-content .title-sub2 {
+    position: absolute;
+    top:365px;
+    left: 92px;
+    font-size: 16px;
+    line-height: 1.95;
+    color: black;
+    opacity: .7;
+}
+.intro-main .main-content .link-store {
+    overflow: hidden;
+    position: absolute;
+    top: 480px;
+    margin-left: 85px;
+}
+.intro-main .main-content .link-store li {
+    float: left;
+    width: 178px;
+    height: 60px;
+    padding: 0 6px;
+}
+.intro-main .main-content .link-store li .android {
+    display: block;
+    width: 178px;
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 12px;
+    font-size: 16.2px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #333;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.intro-main .main-content .link-store li .android:hover {
+    text-decoration: underline;
+}
+.intro-main .main-content .link-store li .android .logo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: -2px 10px 0 0;
+    vertical-align: middle;
+}
+.intro-main .main-content .link-store li .apple {
+    display: block;
+    width: 178px;
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 12px;
+    font-size: 16.2px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #333;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.intro-main .main-content .link-store li .apple:hover {
+    text-decoration: underline;
+}
+/* .intro-main .main-content .link-store li .apple .logo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: -4px 10px 0 0;
+    background-position: -341px -292px;
+    text-indent: 0;
+    vertical-align: middle;
+} */
+.intro-main .background-line {
+    width: 100%;
+    height: 720px;
+    background-color: #ffef6b;
+    position: absolute;
+    top: 0;
+}
+
+/*모바일로 더 손쉬운 계좌계설, 간편한 이체*/
+.intro-sub1 {
+    height: 750px;
+    position: relative;
+}
+.intro-sub1 .sub1_image{
+    display: block;
+}
+.intro-sub1 .sub1_image img {
+    position: absolute;
+    top: 36px;
+    left: 50%;
+    width: 473px;
+    margin: 0 0 0 -500px;
+  
+    
+}
+.intro-sub1 .sub1_text {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    margin-left: 90px;
+    
+}
+.intro-sub1 .sub1_text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+.intro-sub1 .sub1_text p {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
+.intro-sub1 .sub1_text .sub1_btn {
+   top: 438px;
+   left: 50%;
+}
+.intro-sub1 .sub1_text .sub1_btn a {
+    display: block;
+    background-color: #f6f6f6;
+    width: 258px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 56px;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 35px;
+    
+}
+.intro-sub1 .sub1_text .sub1_btn img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+   
+}
+.empty_space {
+    width: 100%;
+    height: 32px;
+    background-color: #fafafa;
+}
+
+/* 우대조건 없이 합리적인 예금과 적금 */
+.intro-sub2 {
+    height: 750px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+}
+.intro-sub2 .sub2-left {
+    position: absolute;
+    top: 172px;
+    left: 50%;
+    margin: 0 0 0 -500px;
+}
+.intro-sub2 .sub2-left .sub2_text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+.intro-sub2 .sub2-left .sub2_text p {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
+.intro-sub2 .sub2-left .left-btns {
+    display: flex;
+    position: relative;
+    top: 30px;
+    
+}
+
+.intro-sub2 .sub2-left .left-btns li a {
+    float: left;
+    width: 158px;
+    height: 56px;
+    margin-right: 6px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    font-size: 15px;
+    line-height: 56px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+.intro-sub2 .sub2-left .left-btns li a:hover {
+    text-decoration: underline;
+}
+.intro-sub2 .sub2-left .left-btns li a img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+}
+
+
+.intro-sub2 .sub2-left .left_image {
+    margin-top: 100px;
+}
+.intro-sub2 .sub2-left .left_image img {
+    width: 440px;
+}
+.intro-sub2 .sub2-right {
+    position: absolute;
+    left: 50%;
+    margin-left: 120px;
+    top: 20px;   
+}
+.intro-sub2 .sub2-right img {
+    width: 409px;
+    height: 722px;
+}
+
+/* 함께 쓰고 같이 보는 모임통장 */
+.intro-sub3 {
+    position: relative;
+    height: 750px;
+    display: flex;
+}
+.intro-sub3 .sub3-left {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -500px;
+    top: 85px;
+    
+}
+.intro-sub3 .sub3-left img {
+    width: 459px;
+    height: 607px;
+    
+    
+}
+.intro-sub3 .sub3-right {
+    position: relative;
+    left: 50%;
+    margin-left: 90px;
+    top: 210px;
+    height: 500px;
+   
+    
+}
+
+.intro-sub3 .sub3-right .right_text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+.intro-sub3 .sub3-right .right_text p {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
+.intro-sub3 .sub3-right .right_btn {
+    left: 50%;
+    margin-left: 90px;
+    top: 455px;
+
+}
+
+.intro-sub3 .sub3-right .right_btn .text {
+    display: block;
+    background-color: #f6f6f6;
+    width: 258px;
+    height: 56px;
+    line-height: 56px;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 235px;
+    
+}
+.intro-sub3 .sub3-right .right_btn .text:hover {
+    text-decoration: underline;
+}
+.intro-sub3 .sub3-right .right_btn img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+
+}
+
+
+/* 함께 도전해서 재미있는 26주적금 */
+
+.intro-sub4 {
+    height: 650px;
+    display: flex;
+    position: relative;
+}
+
+.intro-sub4 .sub4-left .left_text {
+    position: absolute;
+    left: 50%;
+    margin-left: -410px;
+    top: 177px;
+    
+    
+}
+.intro-sub4 .sub4-left .left_text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+.intro-sub4 .sub4-left .left_text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 24px;
+    color: #666;
+}
+.intro-sub4 .sub4-left .left_btn {
+    position: absolute;
+    left: 50%;
+    margin-left: -410px;
+    margin-top: 390px;
+}
+.intro-sub4 .sub4-left .left_btn a {
+    display: block;
+    background-color: #f6f6f6;
+    width: 258px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 56px;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.intro-sub4 .sub4-left .left_btn a:hover {
+    text-decoration: underline;
+}
+.intro-sub4 .sub4-left .left_btn img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+}
+
+   
+.intro-sub4 .sub4-right .right_img img {
+    position: absolute;
+    right: 0;
+    left: 50%;
+    margin-left: 40px;
+    top: 130px;
+    width: 492px;
+    height: 408px;
+}
+
+/* 해외계좌송금과 WU빠른해외송금을 더 쉽고, 저렴하게 */
+.intro-sub5 {
+    height: 750px;
+    background-image: url(./images/home_map.png);
+    background-repeat: no-repeat;
+    background-position: -12% 50%;
+    position: relative;
+    display: flex;
+}
+.intro-sub5 .left_img {
+    position: absolute;
+    top: 20px;
+    right: 55%;
+    margin: 0 -40px 0 -155px;
+}
+.intro-sub5 .left_img img {
+    width: 408px;
+    height: 715px;
+
+}
+.intro-sub5 .sub5-right {
+    position: absolute;
+    left: 50%;
+    top: 196px;
+    margin-left: 90px;
+}
+.intro-sub5 .sub5-right h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+.intro-sub5 .sub5-right p { 
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
+.intro-sub5 .sub5-right .right_btn {
+    margin-top: 30px;
+}
+.intro-sub5 .sub5-right .right_btn a {
+    display: block;
+    background-color: #f6f6f6;
+    width: 258px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 56px;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.intro-sub5 .sub5-right .right_btn a:hover {
+    text-decoration: underline;
+}
+.intro-sub5 .sub5-right .right_btn img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+}
+
+
+/* 복잡한 서류 제출을 간편하게, 내가 원하는 시간에 */
+.intro-sub6 {
+    background-color: #559CDE;
+    height: 930px;
+    position: relative;
+}
+.intro-sub6 .sub6-text {
+    text-align: center;
+    padding-top: 160px;
+    position: relative;
+}
+.intro-sub6 .sub6-text h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+.intro-sub6 .sub6-text p {
+    color: #fff;
+    font-weight: 200;
+    opacity: 60%;
+    font-size: 15px;
+    margin-top: 24px;
+}
+.intro-sub6 .sub6-text .sub6-btns {
+    display: flex;
+    position: absolute;
+    top: 288px;
+    left: 50%;
+    width: 688px;
+    margin-left: -347px;
+}
+.intro-sub6 .sub6-text .sub6-btns a {
+    float: left;
+    width: 166px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0.09);
+    margin-left: 6px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 51px;
+    text-align: center;
+    text-decoration: none;
+}
+.intro-sub6 .sub6-text .sub6-btns a:hover {
+    text-decoration: underline;
+}
+.intro-sub6 .sub6-text .sub6-btns img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+}
+
+.intro-sub6 .sub6-img img {
+    width: 429px;
+    height: 563px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -215px;
+    position: absolute;
+
+}
+
+
+/* 프렌즈카드, 내가 고르는 선택의 즐거움 */
+.intro-sub7 {
+    height: 1062px;
+    position: relative;
+}
+.intro-sub7 .sub7-text {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: 150px;
+}
+.intro-sub7 .sub7-text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+    text-align: center;
+}
+.intro-sub7 .sub7-text p {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
+.intro-sub7 .sub7-text .sub7-btn a {
+    display: block;
+    background-color: #f6f6f6;
+    width: 258px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 56px;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 160px;
+    margin-top: 30px;
+
+} 
+.intro-sub7 .sub7-text .sub7-btn a:hover {
+    text-decoration: underline;
+}
+.intro-sub7 .sub7-text .sub7-btn img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+}
+/* SWIPER */
+.intro-sub7 .swiper-container {
+    position: absolute;
+    bottom: 150px;
+    width: 1100px;
+    left: 50%;
+    margin-left: -550px;
+}
+.intro-sub7 .swiper-prev {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 650px;
+    margin-left: -710px;
+    left: 50%;
+}
+.intro-sub7 .swiper-next {
+    position: absolute;
+    left: 50%;
+    margin-left: 600px;
+    width: 38px;
+    height: 72px;
+    top: 650px;
+}
+
+/* IT 기술로 카카오뱅크를 만들어 갑니다. */
+.intro-sub8 {
+    background-color: #f9f9f9;
+    padding-bottom: 230px;
+    border: 1px solid #f9f9f9;
+    position: relative;
+}
+.intro-sub8 .bg-bar  {
+    display: block;
+    position: absolute;
+    top: 583px;
+    width: 100%;
+    height: 1px;
+    background-color: #eee;
+}
+.intro-sub8 .sub8-text {
+    text-align: center;
+    margin-top: 150px;
+}
+.intro-sub8 .sub8-text h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+.intro-sub8 .bar-bg .bar {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    margin: 50px auto 140px;
+}
+.intro-sub8 .sub8-img {
+    z-index: 1;
+    position: relative;
+}
+.intro-sub8 .sub8-img img {
+    width: 1020px;
+    left: 50%;
+    margin-left: 410px;
+    z-index: 1;
+}
+.intro-sub8 .sub8-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.intro-sub8 .sub8-text2 li {
+    margin-right: 30px;
+    padding-left: 30px;
+   
+}
+.intro-sub8 .sub8-text2 li.empty_box {
+    width: 200px;
+}
+
+.intro-sub8 .sub8-text2 h3 {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 45px 0 17px;
+    text-align: center;
+}
+.intro-sub8 .sub8-text2 p {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: center;
+    color: #666;
+}
+/* FOOTER */
+.kakaofoot {
+    background-color: #eee;
+}
+.kakaofoot .footinner {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.kakaofoot .footinner .inner-info {
+    font-size: 11px;
+    
+}
+.kakaofoot .footinner .inner-info .text-nomal {
+    color: #666;
+    text-decoration: none;
+    font-family: '돋움', sans-serif;
+}
+.kakaofoot .footinner .inner-info .text-nomal:hover {
+    text-decoration: underline;
+}
+.kakaofoot .footinner .inner-info .text-nomal .text-bar{
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 8px 15px 0;
+    background-color: #d8d8d8;
+}
+.kakaofoot .footinner .inner-info .text-bold {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: '돋움', sans-serif;
+}
+.kakaofoot .footinner .inner-info .text-bold:hover {
+    text-decoration: underline;
+}
+.kakaofoot .footinner .inner-info .text-bold .text-bar {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 8px 15px 0;
+    background-color: #d8d8d8;
+}
+.kakaofoot .footinner .inner-info2 {
+    display: flex;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.kakaofoot .footinner .inner-info2 .text-nomal {
+    color: #888;
+    font-family: "Yoon 윤고딕", sans-serif;
+}
+.kakaofoot .footinner .inner-info2 .text-bold {
+    font-weight: bold;
+    margin: 0 5px;
+    color: #000;
+}
+.kakaofoot .footinner .inner-copy {
+    font-size: 11px;
+    font-weight: bold;
+    color: #888;
+    margin-top: 10px;
+    font-family: '돋움', sans-serif;
+}
+.kakaofoot .footinner .inner-bottom {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+
+}
+.kakaofoot .footinner .inner-bottom a {
+    width: 180px;
+    display: flex;
+    text-decoration: none;
+    line-height: 40px;
+    
+}
+.kakaofoot .footinner .inner-bottom a p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #666;
+    margin-left: 10px;
+}
+.kakaofoot .footinner .inner-bottom a img {
+    width: 42px;
+    height: 41px;
+}
+
+.kakaofoot .footinner .inner-bottom .list_channel li a {
+    line-height: 40px;
+    color: #333;
+    
+}
